@@ -1,6 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>HTML5新增标签</title>
+    </head>
+    <!--视频p播放，mp4格式 -->
     <body>
-        <h1>这是我使用github pages搭建的个人站点。</h1>
+        <video width="352" height="264" controls autobuffer>
+            <source src="1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></source>
+        </video>
+        <hr>
+        <hr>
+        <form action="input.asp" method="get">
+            <p>First name: <input type="text" name="fname" /></p>
+            <p>Last name: <input type="text" name="lname" /></p>
+            <input type="submit" value="Submit" />
+        </form>
+        
+        <form action="http://qfedu.com">
+            <input type="date">
+                <input type="week">
+                    <input type="month">
+                        <input type="time">
+        </form>
+        
     </body>
 </html>
